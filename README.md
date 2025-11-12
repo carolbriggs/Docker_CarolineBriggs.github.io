@@ -16,8 +16,7 @@ Here is the guide I followed: [(https://docs.docker.com/engine/install/ubuntu/)]
 
 Here are the commands I an, in order:
 
-```for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done
-```
+```for pkg in docker.io docker-doc docker-compose docker-compose-v2 podman-docker containerd runc; do sudo apt-get remove $pkg; done```
 
 Deleted any previous docker installations
 
@@ -37,16 +36,13 @@ sudo apt-get update
 ```
 Setting up the apt repo
 
-```sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
-```
+```sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin```
 installation
 
-```sudo systemctl status docker
-```
+```sudo systemctl status docker```
 ensure docker is running
 
-```sudo docker run hello-world
-```
+```sudo docker run hello-world```
 check that installation was completed correctly
 
 #Docker_Compose_GitLab
@@ -70,10 +66,8 @@ volumes:
 - ./gitlab/data:/var/opt/gitlab
 ```
 
-```sudo docker compose up
-```
+```sudo docker compose up```
 starts the container
 
-```sudo docker compose down
-```
+```sudo docker compose down```
 ends the container
