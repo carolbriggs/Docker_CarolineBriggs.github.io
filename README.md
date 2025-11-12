@@ -1,4 +1,4 @@
-## Docker_CarolineBriggs.github.io
+# Docker_CarolineBriggs.github.io
 
 Start OpenVPN and open Proxmox from the Cyber Studies Portal
 
@@ -10,7 +10,7 @@ Netmask : 255.255.255.0
 Gateway : 10.30.76.1
 DNS : 1.1.1.1
 
-# Install_Docker
+## Install_Docker
 
 Here is the guide I followed: [(https://docs.docker.com/engine/install/ubuntu/)]
 
@@ -45,7 +45,7 @@ ensure docker is running
 ```sudo docker run hello-world```
 check that installation was completed correctly
 
-# Docker_Compose_GitLab
+## Docker_Compose_GitLab
 
 I followed this guide: [(https://medium.com/@BuildWithLal/gitlab-setup-using-docker-compose-a-beginners-guide-3dbf1ef0cbb2)]
 
